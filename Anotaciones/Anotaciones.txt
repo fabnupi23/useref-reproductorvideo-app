@@ -3,3 +3,10 @@
 *Para acceder a los controles del video necesitamos vincularlo a una referencia, desde React importamos el useRef y asignamos dicha referencia a la etiqueta video.
 
 *Creamos la función handlePlay para tener el control de Play de nuestro video.
+
+*Creamos la función handlePause para tener el control de Pause de nuestro video. 
+
+*Vamos a dejar el Play/Pause en un solo botón, para ello eliminamos handlePause y partimos de crear un useState, mediante el cual sabremos si se esta reproduciendo o no 
+ el video.
+
+ *Para pausar el video dando click en el mismo video asignamos la función onClick={handlePlay} a la etiqueta video.
