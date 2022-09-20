@@ -1,1 +1,5 @@
-Reproductor de vide que basicamente vamos a controlar los controles por medio de las referencias, esto es otra aplicación que es muy comun
+* Reproductor de vide que basicamente vamos a controlar los controles por medio de las referencias, esto es otra aplicación que es muy común.
+
+*Para acceder a los controles del video necesitamos vincularlo a una referencia, desde React importamos el useRef y asignamos dicha referencia a la etiqueta video.
+
+*Creamos la función handlePlay para tener el control de Play de nuestro video.
