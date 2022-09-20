@@ -1,0 +1,1 @@
+Reproductor de vide que basicamente vamos a controlar los controles por medio de las referencias, esto es otra aplicación que es muy comun
